@@ -38,12 +38,12 @@ tina.penup()                            # Lift the pen up so we can move tina wi
 tina.forward(20)                        # Move tina forward by 20
 tina.left(90)                           # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
-tina.write("Why, hello there!")         # Write the message "Why, hello there!"
+tina.write(" hello there Olivia!")         # Write the message "Why, hello there!"
 tina.backward(20)                       # Move tina backward by 20
 
 tina.goto(-50,0)
 tina.pendown()
-tina.color('red')                       # Set the color of tina to red
+tina.color(' blue')                       # Set the color of tina to red
 tina.begin_fill()
 tina.circle(101, steps=50)
 tina.end_fill()
@@ -52,4 +52,3 @@ turtle.exitonclick()                    # Close the window when we click on it
 
 # Now you can try writing your own programs. Open
 # the next file 03_Turtle_Tricks.py
-
